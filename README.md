@@ -19,7 +19,7 @@ Ensure all dependencies are installed successfully before proceeding to use the 
 
 ## Usage
 
-The `get_dicom_metadata_v10.py` script is designed to be used from the command line interface (CLI). The basic usage pattern is outlined below:
+The `DICOMetaExtractor_v32.py` script is designed to be used from the command line interface (CLI). The basic usage pattern is outlined below:
 
 ```sh
 python DICOMetaExtractor_v32.py <path_to_dicom_directory> -o <output_csv_file_path>
@@ -45,7 +45,7 @@ python DICOMetaExtractor_v32.py /path/to/dicom/files -o extracted_metadata.csv
 
 ## Customizing Number of Workers
 
-The `get_dicom_metadata_v10.py` script uses parallel processing to improve efficiency, especially when working with large datasets. By default, the script dynamically allocates a certain number of worker processes to optimize performance based on your system's capabilities. However, you might find it necessary to adjust the number of workers manually to better match your system's resources or to optimize the script's performance for your specific dataset.
+The `DICOMetaExtractor_v32.py` script uses parallel processing to improve efficiency, especially when working with large datasets. By default, the script dynamically allocates a certain number of worker processes to optimize performance based on your system's capabilities. However, you might find it necessary to adjust the number of workers manually to better match your system's resources or to optimize the script's performance for your specific dataset.
 
 ### Adjusting Worker Processes
 
